@@ -1,0 +1,23 @@
+{
+  "name": "aseprite-mcp-live-bridge",
+  "displayName": "Aseprite MCP Live Bridge",
+  "description": "WebSocket bridge for real-time AI control of a running Aseprite instance from aseprite-mcp.",
+  "version": "1.0.0",
+  "author": "himomohi; bridge architecture derived from Zhang Dongyang",
+  "license": "MIT",
+  "categories": ["Scripts"],
+  "contributes": {
+    "scripts": [
+      {
+        "path": "./main.lua",
+        "key": "aseprite_mcp_live_toggle",
+        "title": "MCP Live Bridge: Toggle Connection"
+      },
+      {
+        "path": "./status.lua",
+        "key": "aseprite_mcp_live_status",
+        "title": "MCP Live Bridge: Show Status"
+      }
+    ]
+  }
+}
